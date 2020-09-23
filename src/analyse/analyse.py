@@ -83,7 +83,7 @@ def grid_analysis(delays, alphas, X, y, std_y=True):
 
 
 def main(reservoir, input_name, delays, alphas, plant_number):
-    variable_info = toml.load(open("data/Vegetative_stages/variables.toml"))
+    variable_info = toml.load(open("variables.toml"))
 
     analysis_dir = "data/Vegetative_stages/analysis-{}plants/".format(plant_number)
     if not os.path.isdir(analysis_dir):

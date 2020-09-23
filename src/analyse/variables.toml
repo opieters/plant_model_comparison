@@ -1,0 +1,309 @@
+[t]
+category = "ignore"
+description = ""
+unit = ""
+
+[plant]
+category = "ignore"
+description = ""
+unit = ""
+
+[axis]
+category = "ignore"
+description = ""
+unit = ""
+
+[metamer]
+category = "ignore"
+description = ""
+unit = ""
+
+[organ]
+category = "ignore"
+description = ""
+unit = ""
+
+[element]
+category = "ignore"
+description = ""
+unit = ""
+
+[Ag]
+category = "photosynthesis"
+description = "Gross Photosynthesis rate"
+unit = "µmol C m-2 s-1"
+
+[Amino_Acids_import]
+category = "proteins"
+description = "Total amino acids imported from roots"
+unit = "µmol` N amino acids"
+
+[An]
+category = "ignore"
+description = "An axis must have (one set of roots, ploem, one set of grains, phytomer)"
+unit = ""
+
+[D_Fructan]
+category = "fructan"
+description = "fructan degradation"
+unit = "µmol` C g-1 mstruct"
+
+[D_Proteins]
+category = "proteins"
+description = "protein degradation"
+unit = "µmol` N g-1 mstruct"
+
+[D_Starch]
+category = "starch"
+description = "Rate of starch degradation"
+unit = "µmol` C g-1 mstruct"
+
+[D_cytokinins]
+category = "cytokinins"
+description = "Rate of cytokinins degradation"
+unit = "AU g-1 mstruct"
+
+[Loading_Amino_Acids]
+category = "proteins"
+description = "Rate of amino acids loading to phloem"
+unit = "µmol` N"
+
+[Loading_Sucrose]
+category = "sucrose"
+description = "Sucrose loading"
+unit = "µmol` C"
+
+[N_content_total]
+category = "N"
+description = "N content in the whole element (both green and senesced tissues)"
+unit = "µmol N proteins g-1 mstruct"
+
+[Nitrates_import]
+category = "N"
+description = "Total nitrates imported from roots"
+unit = "µmol` N nitrates"
+
+[Nresidual]
+category = "N"
+description = "residual mass of N in the senescent tissue"
+unit = "g"
+
+[Nstruct]
+category = "N"
+description = "structural N mass"
+unit = "g"
+
+[PARa]
+category = "ignore"
+description = "PARa from an input dataframe having Eabs values"
+unit = ""
+
+[Photosynthesis]
+category = "photosynthesis"
+description = "otal Photosynthesis of an element integrated over a delta t"
+unit = "µmol` C"
+
+[R_Nnit_red]
+category = "respiration"
+description = "Nitrate reduction-linked respiration"
+unit = "µmol` C respired"
+
+[R_maintenance]
+category = "respiration"
+description = "respiration residual ()"
+unit = "µmol C h-1$"
+
+[R_phloem_loading]
+category = "respiration"
+description = "Phloem loading respiration"
+unit = "µmol` C respired"
+
+[R_residual]
+category = "respiration"
+description = "Residual maintenance respiration (cost from protein turn-over, cell ion gradients, futile cycles…)"
+unit = "µmol` C respired"
+
+[Rd]
+category = "respiration"
+description = "Mitochondrial respiration rate of organ in light"
+unit = "µmol C h-1"
+
+[Regul_S_Fructan]
+category = "fructan"
+description = "Maximal rate of fructan synthesis"
+unit = "µmol C g-1 mstruct"
+
+[S_Amino_Acids]
+category = "proteins"
+description = "Rate of amino acid synthesis in roots integrated over a delta t"
+unit = "µmol` N g-1 mstruct"
+
+[S_Fructan]
+category = "fructan"
+description = "Rate of fructan synthesis"
+unit = "µmol` C g-1 mstruct"
+
+[S_Proteins]
+category = "proteins"
+description = "Protein synthesis"
+unit = "µmol` N g-1 mstruct"
+
+[S_Starch]
+category = "starch"
+description = "Rate of starch synthesis"
+unit = "µmol` C g-1 mstruct"
+
+[S_Sucrose]
+category = "sucrose"
+description = "Rate of sucrose synthesis"
+unit = "µmol` C g-1 mstruct"
+
+[Total_Organic_Nitrogen]
+category = "N"
+description = "current total nitrogen amount"
+unit = "µmol` N"
+
+[Tr]
+category = "photosynthesis"
+description = "Transpiration rate"
+unit = "mmol H2O m-2 s-1"
+
+[Transpiration]
+category = "photosynthesis"
+description = "Surfacic transpiration rate of an element"
+unit = "mmol H2O s-1"
+
+[Ts]
+category = "ignore"
+description = "Organ temperature"
+unit = "°C"
+
+[Wmax]
+category = "structure"
+description = "Maximal lamina width"
+unit = "m"
+
+[age]
+category = "ignore"
+description = ""
+unit = ""
+
+[amino_acids]
+category = "proteins"
+description = "amino acids"
+unit = "µmol` N"
+
+[cytokinins]
+category = "cytokinins"
+description = "cytokinins"
+unit = ""
+
+[cytokinins_import]
+category = "cytokinins"
+description = "Import of cytokinins from roots"
+unit = "AU"
+
+[fructan]
+category = "fructan"
+description = "initial value of fructan"
+unit = "µmol C"
+
+[green_area]
+category = "photosynthesis"
+description = "green area"
+unit = "m-2"
+
+[gs]
+category = "photosynthesis"
+description = "stomatal conductance"
+unit = "mmol m-2 s-1"
+
+[height]
+category = "structure"
+description = "height"
+unit = "m"
+
+[is_growing]
+category = "ignore"
+description = "lag indicating if the element is growing or not"
+unit = ""
+
+[is_over]
+category = "ignore"
+description = "indicates if the element is fully senescent"
+unit = ""
+
+[k_proteins]
+category = "cytokinins"
+description = "Relative rate of protein degradation, First order kinetic regulated by cytokinins concentration"
+unit = "s-1"
+
+[length]
+category = "structure"
+description = "length"
+unit = "m"
+
+[max_mstruct]
+category = "structure"
+description = "structural mass maximal of the element i.e. structural mass of the whole element before senescence"
+unit = "g"
+
+[max_proteins]
+category = "proteins"
+description = "maximal protein concentrations experienced by the organ"
+unit = "µmol N proteins g-1 mstruct"
+
+[mstruct]
+category = "structure"
+description = "structural mass of the axis"
+unit = "g"
+
+[nb_replications]
+category = "ignore"
+description = ""
+unit = ""
+
+[nitrates]
+category = "N"
+description = "nitrates: Amount of nitrates in roots"
+unit = "µmol N"
+
+[proteins]
+category = "proteins"
+description = "Amount of proteins"
+unit = "µmol N"
+
+[senesced_length_element]
+category = "structure"
+description = ""
+unit = "m"
+
+[senesced_mstruct]
+category = "structure"
+description = "senesced structural mass of the axis"
+unit = "g"
+
+[starch]
+category = "starch"
+description = "starch"
+unit = "µmol C"
+
+[sucrose]
+category = "sucrose"
+description = "sucrose"
+unit = "µmol C"
+
+[sum_respi]
+category = "respiration"
+description = "Sum of respirations for roots i.e. related to N uptake, amino acids synthesis and residual"
+unit = "µmol C"
+
+[triosesP]
+category = "photosynthesis"
+description = "Amount of triose phosphates"
+unit = "µmol C"
+
+[width]
+category = "structure"
+description = "width"
+unit = "m"
