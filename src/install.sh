@@ -1,8 +1,8 @@
-conda create -n FSPM2020 python=3.7 openalea.mtg openalea.plantgl openalea.lpy alinea.caribu alinea.astk coverage nose sphinx statsmodels rpy2 -c conda-forge -c fredboudon -y
+conda create -n FSPM2020 python=3.7 openalea.mtg openalea.plantgl openalea.lpy alinea.caribu alinea.astk coverage nose sphinx statsmodels -c conda-forge -c fredboudon -y
 
 conda activate FSPM2020
 
-pip install rpy2
+pip install rpy2 scikit-learn rtoml
 
 git clone https://github.com/opieters/adel.git
 pushd adel
