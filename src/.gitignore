@@ -1,0 +1,13 @@
+adel/
+analyse/__pycache__/
+analyse/data/
+cn-wheat/
+core/
+elong-wheat/
+farquhar-wheat/
+fspm-wheat/
+growth-wheat/
+respi-wheat/
+senesc-wheat/
+turgor-growth/
+
